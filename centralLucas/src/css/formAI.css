@@ -1,0 +1,273 @@
+body {
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+a:link, a:hover {
+    text-decoration: none;
+}
+
+input {
+    border: none;
+}
+  
+input:focus {
+    outline: none;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.mainLeft {
+    min-width: 30%;
+    max-width: 25%;
+}
+
+.mainRigth {
+    margin-left: 3%;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: bold
+}
+
+.subTitle {
+    padding-top: 10%;
+}
+
+.fieldSearch {
+    background-color: #ebebeb;
+    padding: 2%;
+}
+
+.search {
+    max-width: auto;
+    min-width: 90%;
+    margin-right: auto;
+    min-height: 20%;
+    background-color: #ebebeb;
+    border: none;
+    font-size: 10px;
+}   
+
+.btn.btn-danger {
+    min-width: 100%;
+    min-height: 70%;
+    background-color: #dc3636;
+    border-color: #dc3636;
+    text-align: left;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.btn.btn-danger:hover, .btn.btn-danger:active {
+    background-color: #cc3636;
+    border-color: #cc3636;  
+}
+
+.btn-aligned {
+    padding-top: 3%;
+}
+
+.arrow-aligned {
+    float: right;
+}
+
+.buttonAI {
+    background-color: #ffffff;
+    color: #000000;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.btn.btn-success-edited {
+    background-color: #41b634;
+    color: #ffffff;
+    border-radius: 0%;
+    border: none;
+    margin-left: 1%;
+    min-width: 65px;
+}
+
+.btn.btn-success-edited:hover, .btn.btn-success-edited:active {
+    background-color: #39a02e;    
+    color: #ffffff;
+}
+
+.btn.btn-warning-edited {
+    background-color: #dc3636;
+    color: #ffffff;
+    border-radius: 0%;
+    border: none;
+    margin-left: 1%;
+    min-width: 65px;
+}
+
+.btn.btn-warning-edited:hover, .btn.btn-warning-edited:active {
+    background-color: #cc3636;    
+    color: #ffffff;
+}
+
+.btn.btn-link.collapsed {
+    background-color: #ffffff;
+    color: #000000;
+    width: 100%;
+    border: none;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.btn.btn-link {
+    background-color: #ffffff;
+    color: #000000;
+    width: 100%;
+    border: none;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.btn.btn-link:hover {
+    background-color: #ffffff;
+    color: #000000;
+    width: 100%;
+    border: none;
+    text-align: left;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.card-body {
+    padding: 0 14px;
+    overflow: hidden;
+    font-weight: normal;
+    text-align: left;
+}
+
+
+.btn.btn-light {
+    background-color: #858585;
+    color:#ffffff;
+    border-radius: 0%;
+    border: none;
+    margin-left: 1%;
+    min-width: 65px;
+}
+
+.contacts {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 2%;
+    max-height: 50%;
+    
+}
+
+.contacts-aligned {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    max-width: 27%;
+    max-height: 50%;
+}
+
+.contacts-icon {
+    display: flex;
+    padding-left: 5%;
+    font-size: 40px;
+}
+
+.fa-aligned {
+    padding-left: 30%;
+}
+
+.resetButton {
+    text-decoration: none;
+    border: none;
+    background: none;
+}
+
+/** Formulário de E-mail **/
+
+.mainEmail {
+    min-width: 65%;
+    margin-left: 3%;
+}
+
+.titleEmail {
+    font-weight: bold;
+}
+
+.form-control-category, .form-control-name, .form-control-email, .form-control-file, .form-control-message {
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    padding: 2%;
+    border: none;
+    background-color: #ebebeb;
+}
+
+.form-file {
+    padding-top: 3%;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn.btn-success-send {
+    background-color: #41b634;
+    color: #ffffff;
+    border-radius: 0%;
+    border: none;
+    font-size: 16px;
+}
+
+.btn.btn-success-send:hover {
+    background-color: #39a12e;
+    color: #ffffff;
+}
+
+.buttonSend {
+    min-width: auto;
+    max-width: 50%;
+    padding-left: 10%;
+}
+
+.alertField {
+    display: flex;
+    min-width: auto;
+    max-width: 50%;
+}
+
+.form-file-send {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 5%;
+}
+
+.surveyQuestion {
+    padding-top: 5%;
+}

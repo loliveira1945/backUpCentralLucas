@@ -1,0 +1,42 @@
+body {
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+a:link, a:hover {
+    text-decoration: none;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.subTitle {
+    padding-left: 25%;
+    padding-top: 5%;
+}
+
+.buttonsAccess {
+    padding-left: 15%;
+    padding-top: 5%;
+}
+
+.btn.btn-danger {
+    min-height: 95px;
+    min-width: 131px;
+    background-color: #dc3636;
+    border-color: #dc3636;
+}
+
+.btn.btn-danger:hover, .btn.btn-danger:active {
+    background-color: #cc3636;
+    border-color: #cc3636;  
+}
+
+.btn-aligned {
+    margin-left: 5%;
+}

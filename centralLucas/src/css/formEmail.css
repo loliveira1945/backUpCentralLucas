@@ -1,0 +1,41 @@
+body{
+    color: #7F7F7F;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+}
+
+input[type="file"] { 
+    display: none; 
+}
+
+.label-bordered {
+    border: 1px solid #cecece;
+    padding: 7px;
+    border-radius: 15px;
+    font-size: 17px;
+}
+
+.radio-container {
+    display: block;
+    position: relative;
+    margin-top: 5px;
+    min-height: 1.5rem;
+}
+
+.label {
+    cursor: pointer;
+    margin-bottom: 0;
+    padding-left: 1.5rem;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 2px;
+    margin-left: 5px;
+}
+
+.btn-reset {
+    background-color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    color: #7F7F7F;
+}
